@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Computer Store</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-casual.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <div class="container">
+       <img class="rounded-circle" src="img/logopc.jpg" height="110" width="110" alt="50">
+      <a class="navbar-brand" href="#">Computer Store</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="index.html">Inicio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="Administrador.html">Administrador</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="Inventario.html">Inventario</a>
+          </li>
+          <li class="nav-item active px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="Utilidades.html">Utilidades</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <!-- MENU NAVEGACION -->
+	
+	<!-- Primer formulario-->
+	<div class="container">
+		<div class="row mt-4">
+			<div class="col-lg-6">
+						<h2>Ingresar producto</h2>
+						<form class="form-horizontal" action="insertar.php" role="form" method="POST">
+							<div class="form-group">
+							<label>Codigo de producto:</label>
+							<input type="text" class="form-control" name="code" placeholder="Ingrese datos" style="width: 300px;">
+							</div>
+							<div class="form-group">
+							<label>Nombre del producto:</label>
+							<input type="text" class="form-control" name="nombre" placeholder="Ingrese datos" style="width: 300px;">
+							</div>
+							<div class="form-group">
+							<label>Marca del producto:</label>
+							<input type="text" class="form-control" name="nombre" placeholder="Ingrese datos" style="width: 300px;">
+							</div>
+							<div class="form-group">
+							<label>Cantidad Comprada:</label>
+							<input type="text" class="form-control" name="nombre" placeholder="Ingrese datos" style="width: 300px;">
+							</div>
+							<div class="form-group">
+							<label>Precio de Compra:</label>
+							<input type="text" class="form-control" name="nombre" placeholder="Ingrese datos" style="width: 300px;">
+							</div>
+              <div class= "d-grid gap-2 col-10 mx-auto">
+							<button type="submit" name="submit" class="btn btn-primary">Registrar producto</button>
+              </div>
+						</form>
+			</div>
+      <!-- Segundo formulario-->
+	
+		
+			<div class="col-12 col-md-6 col-lg-6">
+		
+        <h2>Actualizar producto</h2>
+        <form class="form-horizontal" action="insertar.php" role="form" method="POST">
+          <div class="form-group">
+          <label>Codigo de producto:</label>
+          <input type="text" class="form-control" name="code" placeholder="Ingrese datos" style="width: 300px;">
+          </div>
+          <div class="form-group">
+          <label>Nombre del producto:</label>
+          <input type="text" class="form-control" name="nombre" placeholder="Ingrese datos" style="width: 300px;">
+          </div>
+          <div class="form-group">
+          <label>Marca del producto:</label>
+          <input type="text" class="form-control" name="nombre" placeholder="Ingrese datos" style="width: 300px;">
+          </div>
+          <div class="form-group">
+          <label>Cantidad Comprada:</label>
+          <input type="text" class="form-control" name="nombre" placeholder="Ingrese datos" style="width: 300px;">
+          </div>
+          <div class="form-group">
+          <label>Precio de Compra:</label>
+          <input type="text" class="form-control" name="nombre" placeholder="Ingrese datos" style="width: 300px;">
+          </div>
+          <div class= "d-grid gap-2 col-10 mx-auto">
+          <button type="submit" name="submit" class="btn btn-primary">Modificar producto</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>	
+        <!-- Tercero formulario-->
+  <div class="container">
+    <div class= "row mt-4">
+       <div class="col-12 col-lg-6">
+        <label for="basic" class="form-label"> </label>
+
+        <h2>Eliminar un producto</h2>
+        <form class="form-horizontal" action="insertar.php" role="form" method="POST">
+          <div class="form-group">
+            <label>Codigo de producto:</label>
+            <input type="text" class="form-control" name="code" placeholder="Ingrese datos" style="width: 300px;">
+          </div>
+          <div class= "d-grid gap-2 col-10 mx-auto">
+          <button type="submit" name="submit" class="btn btn-primary">Eliminar producto</button>
+          </div>
+        </form>
+    </div>
+  
+
+
+        <!-- Cuarto formulario-->
+
+  
+      <div class="col-12 col-lg-6">
+        <label for="basic" class="form-label"> </label>
+        <h2>Consulte un producto</h2>
+        <form class="form-horizontal" action="insertar.php" role="form" method="POST">
+          <div class="form-group">
+            <label>Codigo de producto:</label>
+            <input type="text" class="form-control" name="code" placeholder="Ingrese datos" style="width: 300px;">
+          </div>
+          <div class= "d-grid gap-2 col-10 mx-auto">
+          <button type="submit" name="submit" class="btn btn-primary">Consultar producto</button>
+          </div>
+        </form>
+      </div>
+    </div>	
+  </div>
+  <label for="basic" class="form-label"> </label>
+  <footer class="footer text-faded text-center py-5">
+    <div class="container">
+      <p class="m-0 small" style="color:black ;">Universidad Nacional Abierta Distancia 2021</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
